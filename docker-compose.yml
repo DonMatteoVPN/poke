@@ -2,6 +2,9 @@
 services:
   poke:
     # image: soon!!!
+        build:
+      context: .
+      dockerfile: Dockerfile
     
     # do not use
     # image: codeberg.org/poketube/poke:amd64
